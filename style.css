@@ -88,3 +88,90 @@ body {
   letter-spacing: -3%;
   padding: 17px 22px;
 }
+
+/* hero section style  */
+.hero-section {
+  margin-top: 56px;
+  background-color: #F4F6F5;
+  border-radius: 59px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 63px;
+}
+
+/* hero text stye  */
+.hero-section .hero-text {
+  padding-top: 77px;
+  padding-left: 119px;
+  position: relative;
+  z-index: 1;
+}
+
+.hero-section .hero-text h1 {
+  font-size: 96px;
+  font-family: var(--var--poppins);
+  font-weight: 900;
+  line-height: 120px;
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.hero-section .hero-text .text-bg-1 {
+  position: absolute;
+  top: 68px;
+  left: 82px;
+  z-index: -1;
+}
+
+.hero-section .hero-text .text-bg-2 {
+  position: absolute;
+  top: 302px;
+  left: 94px;
+  z-index: -1;
+}
+
+.hero-section .hero-text p {
+  font-size: 32px;
+  font-family: var(--var--poppins);
+  font-weight: 400;
+  color: #191818;
+  letter-spacing: -5%;
+  margin-bottom: 32px;
+}
+
+/* hero button style  */
+.hero-section .hero-text .shop-now {
+  font-size: 30px;
+  padding: 18px 40px;
+}
+
+/* hero image style  */
+.hero-section .hero-img {
+  padding-top: 68px;
+  padding-right: 81px;
+  position: relative;
+}
+
+.hero-section .hero-img .hero-star-1 {
+  position: absolute;
+  top: 68px;
+  right: 914px;
+}
+
+.hero-section .hero-img .hero-star-2 {
+  position: absolute;
+  top: 104px;
+  right: 238px;
+}
+
+.hero-section .hero-img .hero-star-3 {
+  position: absolute;
+  bottom: 34px;
+  right: 871px;
+}
+
+.hero-section .hero-img .hero-star-4 {
+  position: absolute;
+  bottom: 92px;
+  right: 83px;
+}
