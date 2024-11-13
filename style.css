@@ -175,3 +175,18 @@ body {
   bottom: 92px;
   right: 83px;
 }
+
+/* brand banner style  */
+.brand-section {
+  background-color: #EBD96B;
+  padding-top: 61px;
+  padding-bottom: 54px;
+  margin-bottom: 69px;
+}
+
+.brand-section .brand-images {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 71px;
+}
