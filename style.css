@@ -257,18 +257,41 @@ body {
 /* sale banner section style  */
 .sale-banner {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   background-image: linear-gradient(#F9DF56, #EDCE49, #E0C340);
   margin-bottom: 190px;
 }
 
 .sale-banner .banner-img {
-  width: 50%;
   overflow: hidden;
+  position: relative;
+}
+
+.sale-banner .banner-img .start1 {
+  position: absolute;
+  top: 152px;
+  left: 136px;
+}
+
+.sale-banner .banner-img .start2 {
+  position: absolute;
+  top: 84px;
+  left: 765px;
+}
+
+.sale-banner .banner-img .start3 {
+  position: absolute;
+  bottom: 375px;
+  left: 187px;
+}
+
+.sale-banner .banner-img .start4 {
+  position: absolute;
+  bottom: 227px;
+  left: 816px;
 }
 
 .sale-banner .sale-info {
-  width: 50%;
   padding-top: 128px;
   padding-left: 67px;
   overflow: hidden;
