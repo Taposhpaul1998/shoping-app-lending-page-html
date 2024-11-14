@@ -357,3 +357,51 @@ body {
   font-weight: 600;
   padding: 26px 51px;
 }
+
+/* favorite section style  */
+.fav-conteiner {
+  margin-bottom: 220px;
+}
+
+.fav-conteiner .section-title {
+  margin-bottom: 104px;
+}
+
+.fav-conteiner .section-title img {
+  position: absolute;
+  top: 32px;
+  left: 275px;
+  z-index: -1;
+}
+
+.favourite-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favourite-card .fav-card-img {
+  margin-bottom: 28px;
+}
+
+.favourite-card .fav-card-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favourite-card .fav-card-info .fav-card-text h4 {
+  font-size: 32px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+  color: #000000;
+}
+
+.favourite-card .fav-card-info .fav-card-text p {
+  font-size: 24px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  line-height: 50px;
+  letter-spacing: -4%;
+  color: #7F7F7F;
+}
