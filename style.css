@@ -121,7 +121,7 @@ body {
   z-index: 1;
 }
 
-.hero-section .hero-text h1 {
+.hero-section .hero-text h2 {
   font-size: 96px;
   font-family: var(--var--poppins);
   font-weight: 900;
@@ -252,4 +252,85 @@ body {
   letter-spacing: -4%;
   line-height: 50px;
   color: #7F7F7F;
+}
+
+/* sale banner section style  */
+.sale-banner {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(#F9DF56, #EDCE49, #E0C340);
+  margin-bottom: 190px;
+}
+
+.sale-banner .banner-img {
+  width: 50%;
+  overflow: hidden;
+}
+
+.sale-banner .sale-info {
+  width: 50%;
+  padding-top: 128px;
+  padding-left: 67px;
+  overflow: hidden;
+}
+
+.sale-info .sale-info-text {
+  width: 666px;
+}
+
+.sale-info .sale-info-text .sale-text {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 33px;
+}
+
+.sale-info .sale-info-text .sale-text h1 {
+  font-size: 111px;
+  font-family: var(--var--poppins);
+  font-weight: 900;
+  line-height: 137px;
+  color: #000000;
+}
+
+.sale-info .sale-info-text .sale-text .sale-text-bg {
+  position: absolute;
+  top: -12px;
+  left: -23px;
+  z-index: -1;
+}
+
+.sale-info .sale-info-text .sale-off {
+  margin-bottom: 40px;
+}
+
+.sale-info .sale-info-text .sale-off h6 {
+  font-size: 36px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -2%;
+  color: #231300;
+}
+
+.sale-info .sale-info-text .time-terms {
+  margin-bottom: 61px;
+}
+
+.sale-info .sale-info-text .time-terms h6 {
+  font-size: 36px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  line-height: 52px;
+  letter-spacing: -2%;
+  color: #000000;
+}
+
+.sale-info .sale-info-text .time-terms .time-text {
+  font-weight: bold;
+}
+
+.sale-info .sale-info-text .shop-now {
+  font-size: 27px;
+  font-weight: 600;
+  padding: 26px 51px;
 }
