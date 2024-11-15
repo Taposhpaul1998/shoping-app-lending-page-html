@@ -405,3 +405,233 @@ body {
   letter-spacing: -4%;
   color: #7F7F7F;
 }
+
+/* mobile app section style  */
+.app-conteiner {
+  padding: 0px 119px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 220px;
+}
+
+.app-info {
+  width: 507px;
+  margin-top: 181px;
+  margin-bottom: 147px;
+}
+
+.app-info .app-text {
+  margin-bottom: 65px;
+}
+
+.app-info .app-text h3 {
+  font-size: 45px;
+  font-family: var(--var--poppins);
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 5%;
+  color: #000000;
+  margin-bottom: 41px;
+}
+
+.app-info .app-text p {
+  font-size: 24px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -4%;
+  color: #7C7C7C;
+}
+
+.app-info .app-link {
+  display: flex;
+  justify-content: start;
+  gap: 19px;
+}
+
+.mobile-conteiner {
+  width: 328px;
+  outline: 22px solid #C2C8DA;
+  border-radius: 35px;
+  padding: 39px 26px 23px 26px;
+  box-shadow: 0px 0px 62px -7px;
+  margin-right: 153px;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+.m-bg-1 {
+  position: absolute;
+  top: 40px;
+  right: -153px;
+  z-index: -1;
+}
+
+.m-bg-2 {
+  position: absolute;
+  top: 90px;
+  right: -102px;
+  z-index: -1;
+}
+
+.m-bg-3 {
+  position: absolute;
+  top: 137px;
+  right: -47px;
+  z-index: -1;
+}
+
+.m-bg-4 {
+  position: absolute;
+  bottom: 103px;
+  right: -136px;
+}
+
+.m-bg-5 {
+  position: absolute;
+  top: 55px;
+  left: -133px;
+}
+
+.m-bg-6 {
+  position: absolute;
+  bottom: 7px;
+  left: -155px;
+}
+
+.m-bg-7 {
+  position: absolute;
+  top: 40px;
+  right: -115px;
+}
+
+.mobile-header {
+  margin-bottom: 19px;
+}
+
+.mobile-header .nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 19px;
+}
+
+.mobile-header .mobile-title {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 14px;
+}
+
+.mobile-header .mobile-title h6 {
+  font-size: 22px;
+  font-family: var(--var--inter);
+  font-weight: bold;
+  color: #000000;
+}
+
+.mobile-header .mobile-title img {
+  position: absolute;
+  top: 16px;
+  left: 121px;
+  z-index: -1;
+}
+
+.mobile-header .search-bar {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #DDDDDD;
+  border-radius: 14px;
+  padding: 8px 0px 7px 11px;
+}
+
+.mobile-header .search-bar span {
+  font-size: 14fpx;
+  font-family: var(--var--inter);
+  font-weight: 400;
+  color: #6E6F72;
+}
+
+.m-body-conteiner {
+  position: relative;
+}
+
+.m-body-conteiner .tags {
+  margin-bottom: 25px;
+}
+
+.m-body-conteiner .tags ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.-m-body-conteiner .tags ul li {
+  list-style: none;
+  font-size: 11px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  padding: 7px 20px;
+  border-radius: 12px;
+  background-color: #E9E6E6;
+  color: #8A8A8A;
+}
+
+.m-body-conteiner .tags ul .active {
+  background-color: #EBD96B;
+  color: #000000;
+}
+
+.m-body-conteiner .m-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.m-body-conteiner .m-cards .m-card .card-img {
+  margin-bottom: 11px;
+}
+
+.m-body-conteiner .m-cards .m-card .card-info p {
+  font-size: 12px;
+  font-family: var(--var--poppins);
+  font-weight: 500;
+  color: #000000;
+}
+
+.m-body-conteiner .m-cards .m-card .card-info span {
+  font-size: 12px;
+  font-family: var(--var--poppins);
+  font-weight: 400;
+  color: #757575;
+}
+
+.m-body-conteiner .mobile-footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  padding: 19px 28px 24px 28px;
+  background-color: #FFFFFF;
+  position: absolute;
+  left: -26px;
+  right: -26px;
+  bottom: -20px;
+  border-radius: 0px 0px 35px 35px;
+}
+
+.mobile-footer .card-icon {
+  position: relative;
+}
+
+.mobile-footer .card-icon span {
+  font-size: 10px;
+  font-family: var(--var--inter);
+  font-weight: 600;
+  padding: 0px 3.5px 0px 3.5px;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background: #EA1701;
+  position: absolute;
+  top: -7px;
+  left: 16px;
+}
