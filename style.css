@@ -36,6 +36,12 @@ body {
   background-color: #000000;
   border-radius: 7px;
   cursor: pointer;
+  transition: all .5s;
+}
+
+.btn:hover {
+  background-color: #000000dc;
+  box-shadow: 0px 0px 28px 1px #0000006e;
 }
 
 .section-title {
@@ -57,6 +63,7 @@ body {
   margin-top: 46px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .nav-ber .nav-icon {
@@ -81,12 +88,20 @@ body {
 
 .nav-ber .menu-ber .menu ul {
   display: flex;
-  gap: 65px;
+  gap: 55px;
 }
 
 .nav-ber .menu-ber .menu ul li {
   list-style: none;
+  padding: 10px;
+  transition: all .5s;
 }
+
+.nav-ber .menu-ber .menu ul li:hover {
+  background: #dddbdb54;
+
+}
+
 
 .nav-ber .menu-ber .menu ul li a {
   font-size: 22px;
@@ -102,6 +117,11 @@ body {
   font-size: 24px;
   letter-spacing: -3%;
   padding: 17px 22px;
+}
+
+.nav-ber .bars-icon {
+  display: none;
+  cursor: pointer;
 }
 
 /* hero section style  */
@@ -779,4 +799,80 @@ body {
   letter-spacing: 2%;
   color: #8E8E8E;
   text-decoration: none;
+}
+
+/* resposive   */
+/* Medium Devices (Tablets) */
+@media screen and (width <=991px) {
+  .conteiner {
+    width: auto;
+    padding: 0px 20px;
+  }
+
+  /* nav ber  */
+  .nav-ber .nav-icon {
+    gap: 7px;
+  }
+
+  .nav-ber .nav-icon svg {
+    width: 24px;
+    height: 22px;
+  }
+
+  .nav-ber .nav-icon h4 {
+    font-size: 28px;
+  }
+
+  .nav-ber .menu-ber {
+    gap: 17px;
+  }
+
+  .nav-ber .menu-ber .menu ul {
+    gap: 13px;
+  }
+
+  .nav-ber .menu-ber .menu ul li a {
+    font-size: 17px;
+  }
+
+  .nav-ber .menu-ber .singup-btn {
+    font-size: 17px;
+    padding: 11px 16px;
+  }
+}
+
+/* Small Devices ( Mobile) */
+@media screen and (width <=767px) {
+
+  .nav-ber .menu-ber {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 125px;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 13px 13px rgba(0, 0, 0, 0.2);
+    z-index: 50;
+    gap: 27px;
+  }
+
+  .menu-ber.active {
+    display: flex;
+  }
+
+  .nav-ber .menu-ber .menu ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 27px;
+  }
+
+  .singup {
+    margin-top: 10px;
+    margin-bottom: 55px;
+  }
+
+  .nav-ber .bars-icon {
+    display: block;
+  }
 }
