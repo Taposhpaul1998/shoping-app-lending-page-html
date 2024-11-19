@@ -839,6 +839,82 @@ body {
     font-size: 17px;
     padding: 11px 16px;
   }
+
+  /* hero section  */
+  /* left site text  */
+  .hero-section {
+    margin: 45px 9px;
+  }
+
+  .hero-section .hero-text {
+    width: 35%;
+    padding-top: 30px;
+    padding-left: 5px;
+  }
+
+  .hero-section .hero-text h2 {
+    font-size: 38px;
+    line-height: 54px;
+    margin-bottom: 25px;
+  }
+
+  .hero-section .hero-text .text-bg-1 {
+    max-width: 179px;
+    top: 33px;
+    left: -3px;
+  }
+
+  .hero-section .hero-text .text-bg-2 {
+    max-width: 187px;
+    top: 141px;
+    left: 1px;
+  }
+
+  .hero-section .hero-text p {
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  .hero-section .hero-text .shop-now {
+    font-size: 17px;
+    padding: 11px 16px;
+  }
+
+  /* right site image  */
+  .hero-section .hero-img {
+    width: 65%;
+    padding-top: 38px;
+    padding-right: 26px;
+  }
+
+  .hero-section .hero-img img {
+    width: 100%;
+  }
+
+  .hero-section .hero-img svg {
+    width: 31px;
+  }
+
+  .hero-section .hero-img .hero-star-1 {
+    top: 5%;
+    right: 94%;
+  }
+
+  .hero-section .hero-img .hero-star-2 {
+    top: 13%;
+    right: 22%;
+  }
+
+  .hero-section .hero-img .hero-star-3 {
+    bottom: 2%;
+    right: 89%;
+  }
+
+  .hero-section .hero-img .hero-star-4 {
+    bottom: 9%;
+    right: 7%;
+  }
+
 }
 
 /* Small Devices ( Mobile) */
@@ -874,5 +950,29 @@ body {
 
   .nav-ber .bars-icon {
     display: block;
+  }
+
+  /* hero section  */
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .hero-section .hero-text {
+    width: 100%;
+    padding-left: 22px;
+    padding-bottom: 49px;
+  }
+
+  .hero-section .hero-text .text-bg-1 {
+    left: 5px;
+  }
+
+  .hero-section .hero-text .text-bg-2 {
+    left: 10px;
+  }
+
+  .hero-section .hero-img {
+    width: 100%;
   }
 }
