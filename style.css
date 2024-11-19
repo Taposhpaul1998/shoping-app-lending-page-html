@@ -915,6 +915,20 @@ body {
     right: 7%;
   }
 
+  /* brand banner section  */
+  .brand-section {
+    padding: 33px 0px;
+    margin-bottom: 43px;
+  }
+
+  .brand-section .brand-images {
+    padding: 0 5px;
+  }
+
+  .brand-section .brand-images img {
+    width: 14%;
+  }
+
 }
 
 /* Small Devices ( Mobile) */
