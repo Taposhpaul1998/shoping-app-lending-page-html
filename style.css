@@ -415,6 +415,15 @@ body {
   justify-content: space-between;
 }
 
+.favourite-card {
+  transition: all .5s;
+}
+
+.favourite-card:hover {
+  border-radius: 27px;
+  box-shadow: 0px 0px 28px 0px #C2C8DA;
+}
+
 .favourite-card .fav-card-img {
   margin-bottom: 28px;
 }
@@ -422,6 +431,7 @@ body {
 .favourite-card .fav-card-info {
   display: flex;
   justify-content: space-between;
+  padding: 15px;
 }
 
 .favourite-card .fav-card-info .fav-card-text h4 {
@@ -987,6 +997,10 @@ body {
   }
 
   /* sale banner section */
+  .sale-banner {
+    margin-bottom: 59px;
+  }
+
   .sale-banner .banner-img {
     width: 50%;
   }
@@ -1022,6 +1036,7 @@ body {
   .sale-banner .sale-info {
     width: 50%;
     padding: 47px;
+    padding-right: 0;
   }
 
   .sale-info .sale-info-text {
@@ -1066,7 +1081,36 @@ body {
     padding: 11px 16px;
   }
 
+  /* favourite section  */
+  .fav-conteiner {
+    margin-bottom: 106px;
+  }
 
+  .fav-conteiner .section-title {
+    margin-bottom: 53px;
+  }
+
+  .fav-conteiner .section-title img {
+    width: 124px;
+    top: 28px;
+    left: 187px;
+  }
+
+  .favourite-cards {
+    gap: 28px;
+  }
+
+  .favourite-card .fav-card-img img {
+    max-width: 100%;
+  }
+
+  .favourite-card .fav-card-info .fav-card-text h4 {
+    font-size: 25px;
+  }
+
+  .favourite-card .fav-card-info .fav-card-text p {
+    font-size: 22px;
+  }
 
   /* /////// */
 }
@@ -1204,5 +1248,11 @@ body {
   .sale-info .sale-info-text .shop-now {
     font-size: 21px;
     padding: 19px 37px;
+  }
+
+  /* favourite section  */
+  .favourite-cards {
+    flex-direction: column;
+    gap: 63px;
   }
 }
