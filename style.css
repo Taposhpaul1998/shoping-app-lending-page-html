@@ -607,13 +607,13 @@ body {
 }
 
 .m-body-conteiner .tags ul {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .-m-body-conteiner .tags ul li {
-  list-style: none;
   font-size: 11px;
   font-family: var(--var--poppins);
   font-weight: 500;
@@ -1112,6 +1112,91 @@ body {
     font-size: 22px;
   }
 
+  /* mobile app section  */
+
+  .app-info {
+    width: 295px;
+    margin-top: 125px;
+    margin-bottom: 0px;
+  }
+
+  .app-info .app-text h3 {
+    font-size: 26px;
+    margin-bottom: 18px;
+  }
+
+  .app-info .app-text p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+
+  .app-info .app-text {
+    margin-bottom: 38px;
+  }
+
+  .app-info .app-link .app {
+    width: 109px;
+  }
+
+  .app-info .app-link .app img {
+    max-width: 100%;
+  }
+
+  /* mobile  */
+  .mobile-conteiner {
+    width: 265px;
+    margin-right: 122px;
+  }
+
+  .mobile-header .nav-bar {
+    margin-bottom: 10px;
+  }
+
+  .m-body-conteiner .tags {
+    margin-bottom: 16px;
+  }
+
+  .m-body-conteiner .m-cards {
+    gap: 15px;
+  }
+
+  .card-img img {
+    max-width: 100%;
+  }
+
+  .m-body-conteiner .m-cards .m-card .card-info p {
+    font-size: 10px;
+  }
+
+  .m-body-conteiner .m-cards .m-card .card-info span {
+    font-size: 9px;
+  }
+
+  .m-bg-1 {
+    width: 514px;
+    top: 64px;
+    right: -121px;
+  }
+
+  .m-bg-2 {
+    width: 432px;
+    top: 104px;
+    right: -83px;
+  }
+
+  .m-bg-3 {
+    width: 359px;
+  }
+
+  .m-bg-4 {
+    right: -121px;
+  }
+
+  .m-bg-6 {
+    bottom: 18px;
+    left: -138px;
+  }
+
   /* /////// */
 }
 
@@ -1255,4 +1340,40 @@ body {
     flex-direction: column;
     gap: 63px;
   }
+
+  /* mobile app section  */
+  .app-conteiner {
+    flex-direction: column;
+    align-items: center;
+    gap: 89px;
+  }
+
+  .app-info {
+    width: 100%;
+    padding-left: 79px;
+    margin-top: 47px 0;
+  }
+
+  .app-info .app-text h3 {
+    font-size: 41px;
+  }
+
+  .app-info .app-text p {
+    font-size: 23px;
+    line-height: 42px;
+  }
+
+  .app-info .app-link {
+    gap: 35px;
+  }
+
+  .app-info .app-link .app {
+    width: 188px;
+  }
+
+  .mobile-conteiner {
+    width: 265px;
+    margin: auto;
+  }
+
 }
