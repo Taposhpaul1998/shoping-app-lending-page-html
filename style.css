@@ -252,7 +252,7 @@ body {
 }
 
 .arrival-cards .arrival-card:hover {
-  border-radius: 21px;
+  border-radius: 27px;
   box-shadow: 0px 0px 28px 0px #C2C8DA;
 }
 
@@ -260,10 +260,15 @@ body {
   margin-bottom: 28px;
 }
 
+.arrival-card-img img {
+  width: 100%;
+}
+
 .arrival-cards .arrival-card .arrival-card-text-info {
   display: flex;
   justify-content: space-between;
   padding: 0 12px;
+  padding-bottom: 12px;
 }
 
 .arrival-cards .arrival-card .arrival-card-text-info .card-text h4 {
@@ -288,8 +293,8 @@ body {
 /* sale banner section style  */
 .sale-banner {
   display: flex;
-  justify-content: center;
-  background-image: linear-gradient(#F9DF56, #EDCE49, #E0C340);
+  justify-content: flex-start;
+  background-image: linear-gradient(#F9DF56, #f5d950, #e5c643, #dfc13d);
   margin-bottom: 190px;
 }
 
@@ -940,6 +945,10 @@ body {
   }
 
   /* new arrival section  */
+  .arrivals-conteiner {
+    margin-bottom: 72px;
+  }
+
   .arrivals-conteiner .section-title {
     margin-bottom: 51px;
   }
@@ -963,10 +972,6 @@ body {
     margin-bottom: 11px;
   }
 
-  .arrival-card-img img {
-    max-width: 100%;
-  }
-
   .arrival-cards .arrival-card .arrival-card-text-info .card-text h4 {
     font-size: 17px;
     margin-bottom: 0px;
@@ -980,6 +985,88 @@ body {
   .card-icon svg {
     width: 18px;
   }
+
+  /* sale banner section */
+  .sale-banner .banner-img {
+    width: 50%;
+  }
+
+  .sale-banner .banner-img img {
+    width: 100%;
+  }
+
+  .sale-banner .banner-img svg {
+    width: 31px;
+  }
+
+  .sale-banner .banner-img .start1 {
+    top: 10%;
+    left: 17%;
+  }
+
+  .sale-banner .banner-img .start2 {
+    top: 4%;
+    left: 74%;
+  }
+
+  .sale-banner .banner-img .start3 {
+    bottom: 19%;
+    left: 82%;
+  }
+
+  .sale-banner .banner-img .start4 {
+    bottom: 36%;
+    left: 21%;
+  }
+
+  .sale-banner .sale-info {
+    width: 50%;
+    padding: 47px;
+  }
+
+  .sale-info .sale-info-text {
+    width: 100%;
+  }
+
+  .sale-info .sale-info-text .sale-text {
+    margin-bottom: 6px;
+  }
+
+  .sale-info .sale-info-text .sale-text h1 {
+    font-size: 40px;
+    line-height: 58px;
+  }
+
+  .sale-info .sale-info-text .sale-text .sale-text-bg {
+    width: 216px;
+    top: 0px;
+    left: -14px;
+  }
+
+  .sale-info .sale-info-text .sale-off h6 {
+    font-size: 18px;
+    line-height: 31px;
+  }
+
+  .sale-info .sale-info-text .sale-off {
+    margin-bottom: 9px;
+  }
+
+  .sale-info .sale-info-text .time-terms h6 {
+    font-size: 19px;
+    line-height: 30px;
+  }
+
+  .sale-info .sale-info-text .time-terms {
+    margin-bottom: 14px;
+  }
+
+  .sale-info .sale-info-text .shop-now {
+    font-size: 17px;
+    padding: 11px 16px;
+  }
+
+
 
   /* /////// */
 }
@@ -1067,5 +1154,55 @@ body {
 
   .card-icon svg {
     width: 32px;
+  }
+
+  /* sale banner section */
+  .sale-banner {
+    flex-direction: column-reverse;
+  }
+
+  .sale-banner .banner-img {
+    width: 100%;
+  }
+
+  .sale-banner .sale-info {
+    width: 100%;
+    padding: 60px 43px;
+  }
+
+  .sale-info .sale-info-text .sale-text {
+    margin-bottom: 42px;
+  }
+
+  .sale-info .sale-info-text .sale-text h1 {
+    font-size: 59px;
+    line-height: 81px;
+  }
+
+  .sale-info .sale-info-text .sale-text .sale-text-bg {
+    width: 315px;
+  }
+
+  .sale-info .sale-info-text .sale-off {
+    margin-bottom: 40px;
+  }
+
+  .sale-info .sale-info-text .sale-off h6 {
+    font-size: 20px;
+    line-height: 46px;
+  }
+
+  .sale-info .sale-info-text .time-terms h6 {
+    font-size: 23px;
+    line-height: 50px;
+  }
+
+  .sale-info .sale-info-text .time-terms {
+    margin-bottom: 37px;
+  }
+
+  .sale-info .sale-info-text .shop-now {
+    font-size: 21px;
+    padding: 19px 37px;
   }
 }
