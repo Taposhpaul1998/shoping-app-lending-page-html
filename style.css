@@ -834,6 +834,25 @@ body {
   color: #D9D9D9;
 }
 
+/* scroll up btn  */
+.scrollup-btn {
+  position: fixed;
+  bottom: 105px;
+  right: 91px;
+  padding: 14px 17px;
+  background-color: #999999b3;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.scrollup-btn.show {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+
 /* resposive   */
 /* Medium Devices (Tablets) */
 @media screen and (width <=991px) {
