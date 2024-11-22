@@ -11,6 +11,26 @@ const mobileMenu = function () {
 }
 mobileMenu();
 
+// input fild 
+const addEmail = function () {
+
+    const form = document.querySelector(".email-input")
+    const sendBtn = document.querySelector(".send-btn")
+    const emailInput = document.querySelector(".inupt-email")
+
+    form.addEventListener("submit", async function (e) {
+        e.preventDefault();
+        const email = emailInput
+        sendBtn.addEventListener("click", () => {
+            console.log(email.value)
+            emailInput.value = "";
+        })
+
+    })
+
+}
+addEmail();
+
 // scroll-up btn 
 const srcollUp = function () {
     const scrollUpBtn = document.getElementById("scrollUp");
