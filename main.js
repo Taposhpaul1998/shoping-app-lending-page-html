@@ -17,13 +17,29 @@ const addEmail = function () {
     const form = document.querySelector(".email-input")
     const sendBtn = document.querySelector(".send-btn")
     const emailInput = document.querySelector(".inupt-email")
+    const massage = document.querySelector("#massage")
 
+    let massageText = "";
+
+    const validateEmail = (email) => {
+        if (email !== email.toLowerCase()) {
+            return;
+        }
+        return email.toLowerCase()
+            .match(/^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i)
+    }
     form.addEventListener("submit", async function (e) {
         e.preventDefault();
-        const email = emailInput
+        const email = emailInput.value
         sendBtn.addEventListener("click", () => {
-            console.log(email.value)
-            emailInput.value = "";
+
+            if (!validateEmail(email)) {
+                massageText = "<p class='error'>Please enter a valid email address.</p>"
+            } else {
+                massageText = `<p class="sucsess"> Your email address is: ${email}</p>`
+                emailInput.value = "";
+            }
+            massage.innerHTML += massageText;
         })
 
     })
